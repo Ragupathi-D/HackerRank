@@ -9,4 +9,4 @@ The CITY table is described as follows:
   POPULATION    NUMBER
 */
 
-SELECT * FROM city WHERE population >= 100000 AND COUNTRYCODE = 'USA'
+SELECT * FROM city WHERE population > 100000 AND COUNTRYCODE = 'USA'
