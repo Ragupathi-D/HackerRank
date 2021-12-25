@@ -15,3 +15,6 @@ select submission_date ,
         from 
         (select distinct submission_date from submissions) s1
         group by submission_date;
+/*
+https://www.hackerrank.com/challenges/15-days-of-learning-sql/problem?isFullScreen=true
+*/
